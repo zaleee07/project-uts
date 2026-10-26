@@ -60,7 +60,7 @@
             <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 border-b border-slate-100 pb-3">
                 <div>
                     <h3 class="text-xs font-extrabold uppercase tracking-widest text-slate-400">Rincian Bahan Baku yang Diterima</h3>
-                    <p class="text-xs text-slate-500">Jumlah porsi/stok yang dicatat akan langsung diakumulasikan ke saldo gudang kafe.</p>
+                    <p class="text-xs text-slate-500">Jumlah produk yang diterima akan langsung ditambahkan ke stok kafe.</p>
                 </div>
                 <button type="button" onclick="addItemRow()" 
                         class="inline-flex items-center space-x-1.5 bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold px-3.5 py-2 rounded-xl transition shadow-md shadow-slate-900/10">

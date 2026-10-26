@@ -12,7 +12,7 @@ use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes - Inventory & Sales Management System
+| Web Routes - ZENITH Coffee & Roastery
 |--------------------------------------------------------------------------
 */
 
@@ -45,7 +45,7 @@ Route::middleware('auth')->group(function () {
         Route::resource('purchases', PurchaseController::class)->only(['index', 'create', 'store', 'show']);
     });
 
-    // Transactions: Sales (Stock-Out) - accessible by Staff & Admin
+    // POS sales and customer orders
     Route::resource('sales', SaleController::class)->only(['index', 'create', 'store', 'show']);
 
     // ==========================================

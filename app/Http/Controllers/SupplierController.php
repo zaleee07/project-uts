@@ -73,7 +73,7 @@ class SupplierController extends Controller
     public function destroy(Supplier $supplier)
     {
         if ($supplier->purchases()->count() > 0) {
-            return back()->with('error', 'Pemasok tidak dapat dihapus karena memiliki riwayat transaksi pembelian.');
+            return back()->with('error', 'Supplier tidak dapat dihapus karena memiliki riwayat transaksi pembelian.');
         }
 
         $supplier->delete();

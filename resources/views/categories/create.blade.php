@@ -13,7 +13,7 @@
             <label for="name" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">Nama Kategori <span class="text-rose-500">*</span></label>
             <input type="text" name="name" id="name" value="{{ old('name') }}" required
                    class="w-full text-xs px-3.5 py-2.5 bg-slate-50 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 @error('name') border-rose-500 @else border-slate-300 @enderror"
-                   placeholder="Contoh: Elektronik & Gadget">
+                   placeholder="Contoh: Signature Kopi Susu">
             @error('name')
             <p class="text-xs text-rose-600 mt-1">{{ $message }}</p>
             @enderror

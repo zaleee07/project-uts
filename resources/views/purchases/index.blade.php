@@ -55,7 +55,7 @@
                     <tr>
                         <th class="p-3.5">No. PO</th>
                         <th class="p-3.5">Tanggal</th>
-                        <th class="p-3.5">Pemasok</th>
+                        <th class="p-3.5">Supplier</th>
                         <th class="p-3.5">Dibuat Oleh</th>
                         <th class="p-3.5 text-center">Jumlah Item</th>
                         <th class="p-3.5 text-right">Total Transaksi</th>

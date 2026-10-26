@@ -27,7 +27,7 @@
                 <thead class="bg-slate-50 text-slate-600 uppercase font-semibold border-b border-slate-200">
                     <tr>
                         <th class="p-3.5">#</th>
-                        <th class="p-3.5">Nama Pemasok</th>
+                        <th class="p-3.5">Nama Supplier</th>
                         <th class="p-3.5">Kontak & Email</th>
                         <th class="p-3.5">Alamat</th>
                         <th class="p-3.5 text-center">Transaksi PO</th>
@@ -51,7 +51,7 @@
                         </td>
                         <td class="p-3.5 text-right space-x-2">
                             <a href="{{ route('suppliers.edit', $supplier) }}" class="text-blue-600 hover:text-blue-800 font-medium">Ubah</a>
-                            <form action="{{ route('suppliers.destroy', $supplier) }}" method="POST" class="inline" onsubmit="return confirm('Apakah Anda yakin ingin menghapus pemasok ini?')">
+                            <form action="{{ route('suppliers.destroy', $supplier) }}" method="POST" class="inline" onsubmit="return confirm('Apakah Anda yakin ingin menghapus supplier ini?')">
                                 @csrf
                                 @method('DELETE')
                                 <button type="submit" class="text-rose-600 hover:text-rose-800 font-medium">Hapus</button>

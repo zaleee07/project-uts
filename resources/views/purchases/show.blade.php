@@ -43,7 +43,7 @@
         <!-- Supplier & Notes -->
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs bg-slate-50 p-4 rounded-xl border border-slate-100">
             <div>
-                <span class="text-slate-400 uppercase font-semibold block mb-0.5">Identitas Pemasok (Supplier)</span>
+                <span class="text-slate-400 uppercase font-semibold block mb-0.5">Identitas Supplier</span>
                 <h4 class="font-bold text-slate-900 text-sm">{{ $purchase->supplier->name }}</h4>
                 <p class="text-slate-600 mt-0.5">{{ $purchase->supplier->phone ?? '-' }} | {{ $purchase->supplier->email ?? '-' }}</p>
                 <p class="text-slate-500 mt-0.5">{{ $purchase->supplier->address ?? '-' }}</p>

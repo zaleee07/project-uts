@@ -27,7 +27,7 @@ class ProductTest extends TestCase
         ]);
 
         $this->category = Category::create([
-            'name' => 'Elektronik',
+            'name' => 'Signature Kopi Susu',
             'description' => 'Gadget dan elektronik',
         ]);
     }

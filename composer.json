@@ -1,8 +1,8 @@
 {
-    "name": "uts/inventory-sales-management",
+    "name": "zaleee07/project-uts",
     "type": "project",
-    "description": "Integrated Laravel Project - Inventory & Sales Management System for UTS Web Programming 2",
-    "keywords": ["laravel", "inventory", "sales", "transaction", "uts"],
+    "description": "ZENITH Coffee & Roastery POS and inventory management system for UTS Web Programming 2",
+    "keywords": ["laravel", "coffee", "roastery", "pos", "inventory", "uts"],
     "license": "MIT",
     "require": {
         "php": "^8.2",

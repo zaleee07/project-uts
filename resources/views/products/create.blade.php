@@ -14,7 +14,7 @@
                 <label for="sku" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">Kode SKU <span class="text-rose-500">*</span></label>
                 <input type="text" name="sku" id="sku" value="{{ old('sku') }}" required
                        class="w-full text-xs font-mono px-3.5 py-2.5 bg-slate-50 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 @error('sku') border-rose-500 @else border-slate-300 @enderror"
-                       placeholder="Contoh: ELK-CHG-65W">
+                       placeholder="Contoh: KOP-AREN-ICE">
                 @error('sku')
                 <p class="text-xs text-rose-600 mt-1">{{ $message }}</p>
                 @enderror
@@ -41,7 +41,7 @@
             <label for="name" class="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1">Nama Produk <span class="text-rose-500">*</span></label>
             <input type="text" name="name" id="name" value="{{ old('name') }}" required
                    class="w-full text-xs px-3.5 py-2.5 bg-slate-50 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 @error('name') border-rose-500 @else border-slate-300 @enderror"
-                   placeholder="Contoh: Fast Charger GaN 65W Type-C">
+                   placeholder="Contoh: Es Kopi Susu Gula Aren Signature">
             @error('name')
             <p class="text-xs text-rose-600 mt-1">{{ $message }}</p>
             @enderror

@@ -27,8 +27,8 @@ class StorePurchaseRequest extends FormRequest
     public function messages(): array
     {
         return [
-            'supplier_id.required' => 'Pemasok (supplier) wajib dipilih.',
-            'supplier_id.exists' => 'Pemasok yang dipilih tidak ditemukan.',
+            'supplier_id.required' => 'Supplier wajib dipilih.',
+            'supplier_id.exists' => 'Supplier yang dipilih tidak ditemukan.',
             'purchased_at.required' => 'Tanggal pembelian wajib diisi.',
             'items.required' => 'Minimal satu item produk harus ditambahkan.',
             'items.min' => 'Minimal satu item produk harus ditambahkan.',

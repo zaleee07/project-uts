@@ -28,7 +28,7 @@ class PurchaseTransactionTest extends TestCase
             'role' => 'staff',
         ]);
 
-        $category = Category::create(['name' => 'Elektronik']);
+        $category = Category::create(['name' => 'Signature Kopi Susu']);
 
         $this->supplier = Supplier::create([
             'name' => 'Supplier Utama',
