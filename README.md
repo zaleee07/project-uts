@@ -25,6 +25,176 @@ ZENITH Coffee & Roastery memiliki tampilan bertema kopi dengan kombinasi warna n
 - Pencarian, filter status/tanggal, pagination, dan halaman detail transaksi.
 - Pengujian fitur autentikasi, otorisasi role, produk, pembelian, dan penjualan.
 
+## Screenshot tampilan aplikasi
+
+Berikut screenshot halaman aplikasi pada resolusi desktop. Screenshot diambil dari aplikasi yang berjalan menggunakan data demo, bukan data pengguna.
+
+<details>
+<summary>Login</summary>
+
+<img src="screenshots/login.png" width="800" alt="Halaman login ZENITH Coffee & Roastery">
+
+</details>
+
+<details>
+<summary>Dashboard Owner, Staff, dan Pelanggan</summary>
+
+**Dashboard Owner**
+
+<img src="screenshots/dashboard-owner.png" width="800" alt="Dashboard Owner ZENITH Coffee & Roastery">
+
+**Dashboard Staff**
+
+<img src="screenshots/dashboard-staff.png" width="800" alt="Dashboard Staff ZENITH Coffee & Roastery">
+
+**Dashboard Pelanggan**
+
+<img src="screenshots/dashboard-customer.png" width="800" alt="Dashboard Pelanggan ZENITH Coffee & Roastery">
+
+</details>
+
+<details>
+<summary>Menu dan produk</summary>
+
+**Daftar produk**
+
+<img src="screenshots/products-index.png" width="800" alt="Daftar menu dan produk">
+
+**Tambah produk**
+
+<img src="screenshots/products-create.png" width="800" alt="Form tambah produk">
+
+**Detail produk**
+
+<img src="screenshots/products-show.png" width="800" alt="Detail produk">
+
+**Ubah produk**
+
+<img src="screenshots/products-edit.png" width="800" alt="Form ubah produk">
+
+</details>
+
+<details>
+<summary>Kategori menu</summary>
+
+**Daftar kategori**
+
+<img src="screenshots/categories-index.png" width="800" alt="Daftar kategori menu">
+
+**Tambah kategori**
+
+<img src="screenshots/categories-create.png" width="800" alt="Form tambah kategori">
+
+**Ubah kategori**
+
+<img src="screenshots/categories-edit.png" width="800" alt="Form ubah kategori">
+
+</details>
+
+<details>
+<summary>Supplier</summary>
+
+**Daftar supplier**
+
+<img src="screenshots/suppliers-index.png" width="800" alt="Daftar supplier">
+
+**Tambah supplier**
+
+<img src="screenshots/suppliers-create.png" width="800" alt="Form tambah supplier">
+
+**Ubah supplier**
+
+<img src="screenshots/suppliers-edit.png" width="800" alt="Form ubah supplier">
+
+</details>
+
+<details>
+<summary>Pasokan bahan — Owner dan Staff</summary>
+
+**Daftar pasokan — Owner**
+
+<img src="screenshots/purchases-index-owner.png" width="800" alt="Daftar pasokan bahan untuk Owner">
+
+**Catat pasokan — Owner**
+
+<img src="screenshots/purchases-create-owner.png" width="800" alt="Form catat pasokan untuk Owner">
+
+**Detail pasokan — Owner**
+
+<img src="screenshots/purchases-show-owner.png" width="800" alt="Detail pasokan untuk Owner">
+
+**Daftar pasokan — Staff**
+
+<img src="screenshots/purchases-index-staff.png" width="800" alt="Daftar pasokan bahan untuk Staff">
+
+**Catat pasokan — Staff**
+
+<img src="screenshots/purchases-create-staff.png" width="800" alt="Form catat pasokan untuk Staff">
+
+**Detail pasokan — Staff**
+
+<img src="screenshots/purchases-show-staff.png" width="800" alt="Detail pasokan untuk Staff">
+
+</details>
+
+<details>
+<summary>Penjualan POS dan pesanan pelanggan</summary>
+
+**Daftar transaksi — Owner**
+
+<img src="screenshots/sales-index-owner.png" width="800" alt="Daftar transaksi penjualan untuk Owner">
+
+**Kasir POS — Owner**
+
+<img src="screenshots/sales-create-owner.png" width="800" alt="Form kasir POS untuk Owner">
+
+**Detail transaksi — Owner**
+
+<img src="screenshots/sales-show-owner.png" width="800" alt="Detail transaksi penjualan untuk Owner">
+
+**Daftar transaksi — Staff**
+
+<img src="screenshots/sales-index-staff.png" width="800" alt="Daftar transaksi penjualan untuk Staff">
+
+**Kasir POS — Staff**
+
+<img src="screenshots/sales-create-staff.png" width="800" alt="Form kasir POS untuk Staff">
+
+**Detail transaksi — Staff**
+
+<img src="screenshots/sales-show-staff.png" width="800" alt="Detail transaksi penjualan untuk Staff">
+
+**Riwayat pesanan — Pelanggan**
+
+<img src="screenshots/sales-index-customer.png" width="800" alt="Riwayat pesanan pelanggan">
+
+**Form pemesanan — Pelanggan**
+
+<img src="screenshots/sales-create-customer.png" width="800" alt="Form pemesanan pelanggan">
+
+**Detail pesanan — Pelanggan**
+
+<img src="screenshots/sales-show-customer.png" width="800" alt="Detail pesanan pelanggan">
+
+</details>
+
+<details>
+<summary>Pengelolaan akun pengguna — Owner</summary>
+
+**Daftar pengguna**
+
+<img src="screenshots/users-index.png" width="800" alt="Daftar akun pengguna">
+
+**Tambah pengguna**
+
+<img src="screenshots/users-create.png" width="800" alt="Form tambah pengguna">
+
+**Ubah pengguna**
+
+<img src="screenshots/users-edit.png" width="800" alt="Form ubah pengguna">
+
+</details>
+
 ## Teknologi
 
 - PHP 8.2+

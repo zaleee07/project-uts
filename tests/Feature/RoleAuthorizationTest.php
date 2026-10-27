@@ -55,6 +55,9 @@ class RoleAuthorizationTest extends TestCase
         $response = $this->actingAs($this->owner)->get('/users');
         $response->assertStatus(200);
 
+        $productCreateResponse = $this->actingAs($this->owner)->get('/products/create');
+        $productCreateResponse->assertStatus(200);
+
         $categoryResponse = $this->actingAs($this->owner)->get('/categories/create');
         $categoryResponse->assertStatus(200);
     }
